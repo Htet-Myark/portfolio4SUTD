@@ -1,0 +1,39 @@
+.activities-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 16px;
+}
+
+.activity-card {
+  padding: 28px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  border-radius: var(--radius);
+}
+
+.activity-type {
+  font-family: var(--mono);
+  font-size: 10px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  color: var(--accent-light);
+}
+
+.activity-title {
+  font-size: 15px;
+  font-weight: 700;
+  color: var(--white);
+  line-height: 1.4;
+  letter-spacing: -0.01em;
+}
+
+.activity-desc {
+  font-size: 13px;
+  color: var(--text-muted);
+  line-height: 1.7;
+}
+
+@media (max-width: 900px) { .activities-grid { grid-template-columns: 1fr 1fr; } }
+@media (max-width: 560px) { .activities-grid { grid-template-columns: 1fr; } }
