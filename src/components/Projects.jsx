@@ -3,7 +3,6 @@ import './Projects.css'
 const projects = [
   {
     title: 'Shrtner',
-    type: 'Full-Stack Web App',
     description:
       'A URL shortening service built with Node.js, Express, and PostgreSQL, hosted on Render with NeonDB. Users can shorten long URLs and get clean, shareable links — deployed and live.',
     tech: ['Node.js', 'Express', 'PostgreSQL', 'NeonDB', 'Render'],
@@ -11,12 +10,18 @@ const projects = [
   },
   {
     title: 'FOP2 — University Info System',
-    type: 'Full-Stack Web App',
     description:
       'A university information portal built for the Fundamentals of Programming 2 course. Features a REST API backend, dynamic front-end with Bootstrap, and clean Express routing.',
     tech: ['HTML', 'CSS', 'JavaScript', 'Bootstrap', 'Node.js', 'Express', 'REST API'],
     link: 'https://files-vkom.onrender.com/FOP2',
   },
+  {
+    title: 'Bedrock - Nova Lite 2 Chatbot',
+    
+    description: 'A chatbot built with Amazon Bedrock - Nova Lite 2 project, showcasing natural language processing capabilities.',
+    tech: ['HTML', 'CSS', 'JavaScript', 'Python', 'AWS Lambda','Amazon Bedrock','Vercel','Nova Lite 2 API'],
+    link: 'https://bedrock-nova-lite-2-sjon.vercel.app/',
+  }
 ]
 
 export default function Projects() {
