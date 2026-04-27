@@ -19,6 +19,12 @@ const certs = [
     date: 'Good · AY 2025/2026',
     link: 'https://letters.gov.sg/ypvu4-dbfj8-e3ycy-g7muh',
   },
+  {
+    title: 'Google AI Professional Certificate',
+    issuer: 'Google, Coursera',
+    date: 'Completed',
+    link: 'https://coursera.org/share/4f3bed4a977b1990eeb7abdb824202bd',
+  }
 ]
 
 export default function Certificates() {
