@@ -5,7 +5,6 @@ import Education from './components/Education'
 import Experience from './components/Experience'
 import Skills from './components/Skills'
 import Projects from './components/Projects'
-import CCA from './components/CCA'
 import Certificates from './components/Certificates'
 import Testimonial from './components/Testimonial'
 import Transcript from './components/Transcript'
@@ -24,7 +23,6 @@ export default function App() {
         <Experience />
         <Skills />
         <Projects />
-        <CCA />
         <Certificates />
         <Testimonial />
         <Transcript />
