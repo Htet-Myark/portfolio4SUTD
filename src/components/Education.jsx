@@ -15,6 +15,7 @@ export default function Education() {
               <div>
                 <h3 className="edu-school">Singapore Polytechnic</h3>
                 <p className="edu-degree">Diploma in Information Technology</p>
+                <p className="edu-degree">Specialized in Software Development</p>
               </div>
               <span className="edu-badge">Graduated</span>
             </div>

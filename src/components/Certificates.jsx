@@ -5,7 +5,7 @@ const certs = [
     title: 'Certificate in Data & Analytics',
     issuer: 'Singapore Polytechnic',
     date: '21 March 2025',
-    link: 'https://drive.google.com/file/d/1RUhoy7iLsM9tcJ6yJ185A9PzaUGgXI8W/view?usp=sharing',
+    link: 'https://letters.gov.sg/i57jf-w3309-kq16n-rllq7',
   },
   {
     title: 'AI Ethics & Governance',
@@ -17,14 +17,8 @@ const certs = [
     title: 'Certificate of Achievement in Teamwork',
     issuer: 'Singapore Polytechnic',
     date: 'Good · AY 2025/2026',
-    link: 'https://drive.google.com/file/d/1lLMNutvYGygtqc1ygv2hb4EU5RZjICsz/view?usp=sharing',
+    link: 'https://letters.gov.sg/ypvu4-dbfj8-e3ycy-g7muh',
   },
-  {
-    title: 'Google AI Professional Certificate',
-    issuer: 'Google, Coursera',
-    date: 'Completed',
-    link: 'https://drive.google.com/file/d/1aBcDeFgHiJkLmNoPqRsTuVwXyZ12345/view?usp=sharing',
-  }
 ]
 
 export default function Certificates() {
