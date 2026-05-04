@@ -14,14 +14,8 @@ const projects = [
       'A university information portal built for the Fundamentals of Programming 2 course. Features a REST API backend, dynamic front-end with Bootstrap, and clean Express routing.',
     tech: ['HTML', 'CSS', 'JavaScript', 'Bootstrap', 'Node.js', 'Express', 'REST API'],
     link: 'https://files-vkom.onrender.com/FOP2',
-  },
-  {
-    title: 'Bedrock - Nova Lite 2 Chatbot',
-    
-    description: 'A chatbot built with Amazon Bedrock - Nova Lite 2 project, showcasing natural language processing capabilities.',
-    tech: ['HTML', 'CSS', 'JavaScript', 'Python', 'AWS Lambda','Amazon Bedrock','Vercel','Nova Lite 2 API'],
-    link: 'https://bedrock-nova-lite-2-sjon.vercel.app/',
   }
+  
 ]
 
 export default function Projects() {
